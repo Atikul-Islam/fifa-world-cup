@@ -81,7 +81,25 @@ main{
 .container-blog{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 5px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.blog{
+    border: rgb(191, 186, 186) solid 3px;
+    border-radius: 20px;
+    margin-left: 50px;
+
+}
+.blog img{
+    width: 100%;
+}
+.blog-info{
+    padding: 20px;
+}
+.blog-info span{
+    border: solid  rgb(191, 186, 186) 3px;
+    padding: 5px;
+    border-radius: 5px;
 }
 #blog{
     background-color: #DD0000;
