@@ -425,6 +425,8 @@ nav a{
 .upcoming-match{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
     grid-row-gap: 40px;
     grid-column-gap: 1px;
     margin-top: 5px;
