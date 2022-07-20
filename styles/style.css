@@ -8,14 +8,14 @@ body{
 }
 /* common style  */
 *{
-    margin: none;
-    padding: none;
+    margin: 0px;
+    padding: 0px;
 }
 /* Banner style */
 header{
     width: 100%;
     height: 100vh;
-    background-color: red;
+    background-color:white;
 
 
 }
@@ -29,7 +29,6 @@ header{
     margin-top: 50px;
     margin-left: 140px;
     margin-right: 140px;
-    margin-bottom: 100px;
 }
 .banner-description{
     color: white;
@@ -42,16 +41,13 @@ header{
     font-size: 16px;
 
 }
-button{
+.live{
     background-color: #DD0000;
     padding: 7px 15px;
     border-radius: 5px;
     color: white;
     font-size: 16px;
-}
-button i{
-    padding-left: 5px;
-    font-size: 16px;
+    margin-top: 15px;
 }
 .banner-image{
     padding-left: 200px;
@@ -63,17 +59,30 @@ button i{
 /* main style  */
 main{
     display: flex;
-    margin: 100px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 140px;
 }
 .container-option{
+    background-color: black;
+    height: 376px;
+    width: 40%;
+    border-radius: 10px;
+    position: static;
+}
+.options{
     display: flex;
     flex-direction: column;
-    background-color: black;
-    height: 312px;
-    width: 312px;
+    row-gap: 10px;
 }
-.container-option a{
+button{
+    font-size: 2em;
+    border-radius: 8px;
     background-color: white;
+    margin: 40px 30px;
+
+}
+.options a{
     text-decoration: none;
     color: black;
     border-radius: 5px;
@@ -103,6 +112,9 @@ main{
 }
 #blog{
     background-color: #DD0000;
+
+}
+#blog a{
     color: white;
 }
 /* Start footer  */
@@ -112,17 +124,49 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    width: 1600px;
-    height: 444px;
+}
+footer h1{
+    margin-top: 100px;
+    align-items: center;
 }
 hr{
     margin: 100px;
 }
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+
+}
 nav a{
     text-decoration: none;
     color: white;
+    margin: 5px;
     padding: 5px;
 }
+.social-id{
+    margin: 10px;
+    padding: 10px;
+}
+#fb{
+    font-size: 30px;
+    color: skyblue;
+    padding: 10px;
+}
+#insta{
+    font-size: 30px;
+    color: rgb(235, 45, 108);
+    padding: 10px;
+}
+#twitter{
+    font-size: 30px;
+    color: skyblue;
+    padding: 10px;
+}
+
+
 /* Upcoming match pages styles here  */
 .upcoming-match{
     display: grid;
@@ -130,6 +174,12 @@ nav a{
     grid-row-gap: 40px;
     grid-column-gap: 40px;
     margin-left: 100px;
+}
+#coming-match{
+    background-color: #DD0000;
+}
+#coming-match a{
+    color: whitesmoke;
 }
 .match{
     border: rgb(191, 186, 186) solid 3px;

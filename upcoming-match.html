@@ -18,7 +18,7 @@
             <div class="banner-description">
                 <h1>The Greatest show on the earth</h1>
                 <p>The FIFA World Cup, often simply called the World Cup, is an international association football competition contested by the senior men's national teams of the members of the Federation Internationale de Football Association, the sport's global governing body.</p>
-                <button>Watch live <i class="fa-solid fa-greater-than"></i></button>
+                <button class="live">Watch live <i class="fa-solid fa-greater-than"></i></button>
             </div>
             <div class="banner-image">
                 <img src="assets/banner-img.png" alt="Picture of Leonel Messi">
@@ -29,11 +29,14 @@
     <main>
         <!-- Start blog container -->
         <section class="container-option">
-            <a href="">Upcoming Match</a>
-            <a href="">All Group</a>
-            <a href="" id="blog">Blog</a>
+            <form class="options">
+                <button id="coming-match"><a href="http://127.0.0.1:5500/upcoming-match.html">Upcoming Match</a></button>
+                <button><a href="">All Group</a></button>
+                <button><a href="http://127.0.0.1:5500/index.html">Blog</a></button>
 
-        </section>
+            </form>
+
+        </section> 
         <section class="upcoming-match">
             <div class="match">
             <div class="flag">
@@ -120,6 +123,11 @@
             <a href="">Goal App</a>
             <a href="">Goal Live</a>
         </nav>
+        <div class="social-id">
+            <a href="https://www.facebook.com/" id="fb"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/" id="insta"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://twitter.com/" id="twitter"><i class="fa-brands fa-twitter"></i></a>
+        </div>
     </footer>
     <!-- Footer End -->
 </html>
