@@ -2,22 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
 
+/* ---- common style----  */
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-}
-/* common style  */
-*{
     margin: 0px;
     padding: 0px;
 }
-/* Banner style */
+
+/* --- Banner style --- */
 header{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color:white;
-
-
 }
 .banner{
     display: grid;
@@ -59,16 +56,16 @@ header{
 /* main style  */
 main{
     display: flex;
+    margin-top: 110px;
     margin-left: 140px;
     margin-right: 140px;
     margin-bottom: 140px;
 }
 .container-option{
     background-color: black;
-    height: 376px;
-    width: 40%;
+    height: 410px;
+    width: 510px;
     border-radius: 10px;
-    position: static;
 }
 .options{
     display: flex;
@@ -76,10 +73,11 @@ main{
     row-gap: 10px;
 }
 button{
-    font-size: 2em;
+    font-size: 24px;
     border-radius: 8px;
     background-color: white;
-    margin: 40px 30px;
+    margin: 30px 30px;
+    padding: 20px;
 
 }
 .options a{
@@ -87,11 +85,13 @@ button{
     color: black;
     border-radius: 5px;
 }
+/* Style for right Blogs  */
+
 .container-blog{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 20px;
-    grid-column-gap: 20px;
+    grid-column-gap: 0px;
 }
 .blog{
     border: rgb(191, 186, 186) solid 3px;
@@ -101,12 +101,34 @@ button{
 }
 .blog img{
     width: 100%;
+    padding: 0px;
 }
 .blog-info{
+    display: flex;
+    flex-direction: column;
     padding: 20px;
 }
+.topic span{
+    border: rgb(97, 92, 92) solid 2px;
+}
+.topic h3{
+    padding-top: 20px;
+    
+}
+/* .topic{ 
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    
+}*/
+.details{
+    padding-top: 20px;
+}
+.details span{
+    margin-right: 30px;
+
+}
 .blog-info span{
-    border: solid  rgb(191, 186, 186) 3px;
     padding: 5px;
     border-radius: 5px;
 }
@@ -116,6 +138,12 @@ button{
 }
 #blog a{
     color: white;
+}
+.view-all{
+    display: none;
+    text-align: center;
+    padding-left: 200px;
+    margin-left: 10px;
 }
 /* Start footer  */
 footer{
@@ -168,12 +196,15 @@ nav a{
 
 
 /* Upcoming match pages styles here  */
+
+
 .upcoming-match{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
     grid-column-gap: 40px;
-    margin-left: 100px;
+    margin-top: 50px;
+    margin-left: 70px;
 }
 #coming-match{
     background-color: #DD0000;
@@ -182,7 +213,7 @@ nav a{
     color: whitesmoke;
 }
 .match{
-    border: rgb(191, 186, 186) solid 3px;
+    border: rgb(219, 214, 214) solid 3px;
     padding: 30px;
     border-radius: 20px;
 }
@@ -192,3 +223,15 @@ nav a{
     align-items: center;
     padding: 5px;
 }
+.flag h1{
+    padding: 10px;
+}
+.match-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
