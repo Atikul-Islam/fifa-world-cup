@@ -281,6 +281,8 @@ nav a{
     main{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: 50px;
     }
     .container-option{
@@ -382,7 +384,7 @@ footer h1{
     align-items: center;
 }
 hr{
-    margin: 100px;
+    margin: 80px;
 }
 nav{
     display: flex;
